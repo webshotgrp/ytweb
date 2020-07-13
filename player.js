@@ -76,7 +76,7 @@ function pause() {
 }
 
 function loadById(id, startAt) {
-    player.loadVideoById(id, startAt);
+    player.loadVideoById(id, startAt, "large");
     return '';
 }
 
